@@ -20,6 +20,15 @@ close.addEventListener('click' , function(){
         mobileMenu.classList.add('active')
     } 
 })
+// standard-menu-mobile
+let submenus = document.querySelectorAll(".main-mobile-menu .have-submenu");  
+
+submenus.forEach(submenu => {  
+    let titleSubmenu = submenu.querySelector(".title-standard-menu");  
+    titleSubmenu.addEventListener('click', function() {  
+        submenu.classList.toggle('active');  
+    });  
+});
 // splide
 
 document.addEventListener('DOMContentLoaded', function() {
@@ -28,12 +37,14 @@ document.addEventListener('DOMContentLoaded', function() {
         pagination: true,      
         arrows    : false,        
         autoplay : true,          
-        interval : 3000,          
-        direction: 'rtl',                 
+        interval : 5000,          
+        direction: 'rtl', 
+        type   : 'loop'             
     });
 
     splide.mount();
 });
+
 
 
 
