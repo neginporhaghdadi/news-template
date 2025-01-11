@@ -884,6 +884,7 @@ color: #123c69;
     --grid-col:2;
     grid-template-columns: repeat(var(--grid-col) , 1fr);
     gap: 0.5rem;
+    margin-top: 1rem;
 }
 .album-gallery img{
     object-fit: cover;
@@ -896,6 +897,11 @@ color: #123c69;
 @media only screen and (min-width:992px){
     .album-gallery {
         --grid-col:6;
+    }
+}
+@media screen and (min-width:1440px){
+    .album-gallery{
+        margin-top: 0;
     }
 }
 .album-gallery a{
@@ -930,7 +936,7 @@ color: #123c69;
 }
 .footer-main{
     background-color: #eee;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .footer-content{
     display: flex;

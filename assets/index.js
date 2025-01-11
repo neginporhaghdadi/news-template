@@ -33,7 +33,7 @@ submenus.forEach(submenu => {
 
 document.addEventListener('DOMContentLoaded', function() {
     var splide = new Splide('.splide', {
-        heightRatio: 0.5,          
+        heightRatio: 0.5,  
         pagination: true,      
         arrows    : false,        
         autoplay : true,          
