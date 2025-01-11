@@ -118,6 +118,9 @@ span.mskIcon {
     background-color: #1fbbb7;
 }
 /* header-main */
+.title-page{
+    display: none;
+}
 .header-mobile{
     display: flex;
     justify-content: space-between;
