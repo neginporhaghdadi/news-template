@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function() {
         autoplay : true,          
         interval : 5000,          
         direction: 'rtl', 
-        type   : 'loop'             
+        type   : 'loop',
     });
 
     splide.mount();
